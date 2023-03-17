@@ -9,7 +9,7 @@
     align-items: center;
     font-size: 2rem;
     background: url(../img/estudio.jfif) no-repeat;
-    background-size: cover; /* se utiliza para centrar toda la imagen en el div*/
+    background-size: cover; /* se utiliza para centrar toda la imagen en el div* La propiedad CSS background-size especifica el tamaño de las imágenes de fondo/
     color: rgb(134, 182, 221);
     
 }
