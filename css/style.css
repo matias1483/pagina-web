@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 #divHijo {
    
         height:200px;
@@ -16,6 +21,41 @@
 #principal {
     text-align: center;
     margin-top: 2rem;
+
    
 
 }
+input {
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+  
+    background-color: #a1d1f5;
+    color: #64696d;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 30px;
+  }
+  
+  /* Solo el campo de tipo email tendrá un background diferente */
+  input[type="email"] {
+    background-color: #e6880d;
+  }
+  
+  input[type="text"] {
+    cursor: pointer; /*Cambiar la apariencia del cursor*/
+  }
+  input[type="password"] {
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Este código agrega una sombra  alrededor del input. */
+  }
+  input[type="submit"] {
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Este código agrega una sombra  alrededor del input. */
+  }
+  .botons{
+    background-color: pink;
+  }
+ 
