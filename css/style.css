@@ -8,6 +8,9 @@
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+    background: url(../img/estudio.jfif) no-repeat;
+    background-size: cover;
+    color: rgb(134, 182, 221);
     
 }
 #principal {
