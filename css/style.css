@@ -1,7 +1,12 @@
 #divHijo {
     text-align: center;
-    height:50px;
+        height:50px;
     width:400px;
      margin:0px auto;
     background-color:red;
+}
+#principal {
+    text-align: center;
+    margin-top: 2rem;
+
 }
