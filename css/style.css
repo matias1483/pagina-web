@@ -1,12 +1,18 @@
 #divHijo {
-    text-align: center;
-        height:50px;
+   
+        height:200px;
     width:400px;
      margin:0px auto;
     background-color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    
 }
 #principal {
     text-align: center;
     margin-top: 2rem;
+   
 
 }
